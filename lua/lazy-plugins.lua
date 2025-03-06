@@ -47,11 +47,13 @@ require('lazy').setup({
 
   -- require 'kickstart/plugins/onedark',
 
-  -- require 'kickstart/plugins/gruvbox',
+  require 'kickstart/plugins/gruvbox',
 
   -- require 'kickstart/plugins/oxocarbon',
 
-  require 'kickstart/plugins/tokyonight',
+  --  require 'kickstart/plugins/tokyonight',
+
+  -- require 'kickstart/plugins/templeos',
 
   require 'kickstart/plugins/lazygit',
 
