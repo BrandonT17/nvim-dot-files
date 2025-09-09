@@ -43,15 +43,21 @@ require('lazy').setup({
 
   require 'kickstart/plugins/markdown_nvim',
 
+  -- require 'kickstart/plugins/markview_nvim',
+
   -- require 'kickstart/plugins/alpha',
 
   -- require 'kickstart/plugins/onedark',
 
-  require 'kickstart/plugins/gruvbox',
+  -- require 'kickstart/plugins/gruvbox',
+
+  -- require 'kickstart/plugins/mason',
+
+  -- require 'kickstart/plugins/catppuccin',
 
   -- require 'kickstart/plugins/oxocarbon',
 
-  --  require 'kickstart/plugins/tokyonight',
+  require 'kickstart/plugins/tokyonight',
 
   -- require 'kickstart/plugins/templeos',
 
@@ -68,6 +74,8 @@ require('lazy').setup({
   require 'kickstart/plugins/mini',
 
   require 'kickstart/plugins/treesitter',
+
+  require 'kickstart/plugins/bible-verse',
 
   require 'kickstart/plugins/dashboard',
 

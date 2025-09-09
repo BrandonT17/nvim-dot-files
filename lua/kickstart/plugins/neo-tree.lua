@@ -13,6 +13,10 @@ return {
           width = 25,
           border = rounded,
         },
+        filters = {
+          dotfiles = true,
+          custom = {},
+        },
       }
       vim.keymap.set('n', '|', ':NvimTreeToggle<CR>', { desc = 'opens tree', noremap = true, silent = true })
     end,

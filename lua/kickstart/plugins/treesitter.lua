@@ -19,6 +19,9 @@ return {
           'json5',
           'lua',
           'markdown',
+          'markdown_inline',
+          'go',
+          'sql',
           'prisma',
           'vim',
         }, -- one of "all", or a list of languages
