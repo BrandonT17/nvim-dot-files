@@ -29,45 +29,31 @@ require('lazy').setup({
 
   require 'kickstart/plugins/telescope',
 
-  require 'kickstart/plugins/lsp-config',
-
   require 'kickstart/plugins/conform',
 
   require 'kickstart/plugins/cmp',
 
   require 'kickstart/plugins/leetcode-nvim',
 
-  -- require 'kickstart/plugins/colorschemes',
-
   require 'kickstart/plugins/noice',
 
-  require 'kickstart/plugins/markdown_nvim',
+  require 'kickstart/plugins/obsidian',
 
-  -- require 'kickstart/plugins/markview_nvim',
+  require 'kickstart/plugins/lsp',
 
-  -- require 'kickstart/plugins/alpha',
-
-  -- require 'kickstart/plugins/onedark',
-
-  -- require 'kickstart/plugins/gruvbox',
-
-  -- require 'kickstart/plugins/mason',
-
-  -- require 'kickstart/plugins/catppuccin',
-
-  -- require 'kickstart/plugins/oxocarbon',
-
-  require 'kickstart/plugins/tokyonight',
-
-  -- require 'kickstart/plugins/templeos',
+  require 'kickstart/plugins/catppuccin',
 
   require 'kickstart/plugins/lazygit',
 
   require 'kickstart/plugins/autopairs',
 
-  -- require 'kickstart/plugins/lualine',
+  require 'kickstart/plugins/image',
 
-  -- require 'kickstart/plugins/midnightnvim',
+  require 'kickstart/plugins/img-clip',
+
+  require 'kickstart/plugins/luarocks',
+
+  require 'kickstart/plugins/render-markdown',
 
   require 'kickstart/plugins/todo-comments',
 
@@ -90,11 +76,11 @@ require('lazy').setup({
   --  Here are some example plugins that I've included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
-  -- require 'kickstart.plugins.debug',
+  require 'kickstart.plugins.debug',
   -- require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
-  -- require 'kickstart.plugins.autopairs',
-  -- require 'kickstart.plugins.neo-tree',
+  require 'kickstart.plugins.autopairs',
+  require 'kickstart.plugins.neo-tree',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.

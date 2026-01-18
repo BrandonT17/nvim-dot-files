@@ -6,9 +6,9 @@ return {
       -- list of quotes
       local quotes = {
         {
-          '"Truly, He is my rock', 
+          '"Truly, He is my rock',
           'and my salvation,',
-          'He is my fortress.', 
+          'He is my fortress.',
           'I shall not be shaken."',
           'Psalm 62:6',
           '',
@@ -72,7 +72,6 @@ return {
             --            ' ██  ██  ██      ██   ██   ▀█▄█    ██   ██ ██ ██  ',
             --            '▄██▄ ██▄  ▀█▄▄▄▀  ▀█▄▄█▀    ▀█    ▄██▄ ▄██ ██ ██▄ ',
 
-       
             --'⠀⠀  ⠀⠀⡴⠂⡔⠠⠀⠀⢀⡔⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢦⡙⣦⡑⠀⠀⠀⣤⣤⣤⠀⠀⠀⠀⠀⠀⢲⡔⣲⣿⡟⠒⢁⠀⡀⠀⠀⠀⠀⠀⠀,⠀⡀⠀⠀⠀⠀⠀⢠⠛⣟',
             --'⠀⠀⠐⠀⡶⣥⣣⣌⡁⢂⠢⠂⡗⣄⡱⠠⡄⢢⠀⠀⠁⠆⡐⠈⠄⢃⠰⠈⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀⢀⡀⢃⡞⡕⣫⡔⣘⣮⢪⡔⠄⠂⠠⠢⡠⠀⢀⠀⠑⡄⠀⠀⠀⠀⠡⠀',
             --'⡁⢌⢃⠧⣘⢆⠳⣽⡯⣦⣭⣌⠘⡠⢁⠃⠜⠠⠂⠀⠀⠀⠀⠁⠀⠠⢀⠀⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀⠀⠘⠀⣉⢟⣣⡝⡛⠣⠧⠨⡢⡠⠗⠀⠈⠀⠀⠄⠐⠈⠠⠄⠄⠀⠀⠀',
@@ -100,7 +99,7 @@ return {
           }, quote),
           center = {
             {
-              icon = 'I.   ',
+              icon = '១.   ',
               icon_hl = 'String',
               desc = 'Find File',
               desc_hl = 'Comment',
@@ -112,7 +111,7 @@ return {
               end,
             },
             {
-              icon = 'II.  ',
+              icon = '២.   ',
               icon_hl = 'String',
               desc = 'Search Text',
               desc_hl = 'Comment',
@@ -124,7 +123,7 @@ return {
               end,
             },
             {
-              icon = 'III. ',
+              icon = '៣.   ',
               icon_hl = 'String',
               desc = 'Recent Files',
               desc_hl = 'Comment',
@@ -136,28 +135,28 @@ return {
               end,
             },
             {
-              icon = 'IV.  ',
+              icon = '៤.   ',
               icon_hl = 'String',
-              desc = 'Edit Dashboard',
+              desc = 'Edit Neovim',
               desc_hl = 'Comment',
               key = 'e',
               key_hl = 'Keyword',
               key_format = ' [%s]', -- `%s` will be substituted with value of `key`
-              action = 'edit ~/.config/nvim/lua/kickstart/plugins/dashboard.lua',
+              action = 'edit ~/.config/nvim/lua/',
             },
             {
-              icon = 'V.   ',
+              icon = '៥.   ',
               icon_hl = 'String',
-              desc = 'Edit Neovim',
+              desc = 'Edit Terminal',
               desc_hl = 'Comment',
               key = 'f',
               key_hl = 'Keyword',
               key_format = ' [%s]', -- `%s` will be substituted with value of `key`
-              action = 'edit ~/.config/nvim/lua/',
+              action = 'edit ~/.config/kitty/kitty.conf',
             },
           },
           footer = {
-            'Welcome back, Brandon...',
+            'Welcome back, Brandon.',
           },
         },
       }

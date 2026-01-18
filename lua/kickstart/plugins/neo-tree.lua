@@ -14,7 +14,7 @@ return {
           border = rounded,
         },
         filters = {
-          dotfiles = true,
+          dotfiles = false,
           custom = {},
         },
       }
