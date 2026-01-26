@@ -10,7 +10,6 @@ return {
     'rafamadriz/friendly-snippets', -- Predefined snippets
   },
   config = function()
-    -- Load LuaSnip and its snippets
     require('luasnip.loaders.from_vscode').lazy_load()
 
     -- nvim-cmp setup
@@ -37,7 +36,6 @@ return {
       }),
     }
 
-    -- Setup for `/` (search) and `:` (command-line) completion
     cmp.setup.cmdline('/', {
       mapping = cmp.mapping.preset.cmdline(),
       sources = {

@@ -1,8 +1,4 @@
 -- [[ Basic Keymaps ]]
---  See `:help vim.keymap.set()`
-
--- Clear highlights on search when pressing <Esc> in normal mode
---  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Diagnostic keymaps
@@ -30,7 +26,7 @@ vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left wind
 vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window' })
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
--- bold
+-- Normal mode: bold word
 vim.keymap.set('n', '<leader>*', 'viw<esc>a*<esc>bi*<esc>l', { noremap = true, silent = true })
 -- Visual mode: wrap selection in **
 vim.keymap.set('v', '<leader>*', 'c**<C-r>"**<esc>', { noremap = true, silent = true })
